@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.arena {
+    margin: auto;
+}
+
+.snake-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.snake-div {
+    margin: auto;
+    font-size: 4rem;
+    line-height: 1.4;
+}
+
+.placar {
+    text-align: center;
+}
+
+.placar span {
+    font-weight: bold;
+}
+
+.placar-edge{
+    font-size: 2rem;
+}
+
+.edge {
+    height: 25px;
+    width: 25px;
+}
